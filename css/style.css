@@ -1,0 +1,74 @@
+body {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  font-size: .12rem;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+header {
+  height: .4rem;
+  border-bottom: .01rem solid #ccc;
+  position: relative;
+  line-height: .4rem; }
+  header h1 {
+    text-align: center;
+    font-size: .16rem;
+    color: #DF3348; }
+  header .left {
+    position: absolute;
+    left: .1rem; }
+  header .right {
+    position: absolute;
+    right: .1rem;
+    top: 0; }
+    header .right i {
+      margin-right: .12rem; }
+
+section {
+  flex: 1;
+  overflow-y: scroll; }
+  section .top, section .bot {
+    display: -webkit-flex; }
+    section .top dl, section .bot dl {
+      flex: 1;
+      text-align: center;
+      padding: .1rem;
+      background: #eee; }
+      section .top dl dt, section .bot dl dt {
+        padding-bottom: .1rem; }
+        section .top dl dt i, section .bot dl dt i {
+          color: #FB5151;
+          font-size: .2rem; }
+  section .bot {
+    margin-top: .15rem; }
+    section .bot dl {
+      background: #fff;
+      border-right: .01rem solid #ccc;
+      border-bottom: .01rem solid #ccc; }
+      section .bot dl dt i {
+        color: skyblue; }
+  section .bot1 {
+    display: -webkit-flex;
+    padding-top: .2rem; }
+    section .bot1 .lefts {
+      flex: 1;
+      text-align: center; }
+      section .bot1 .lefts dl dt i {
+        color: yellow; }
+    section .bot1 span {
+      flex: 1;
+      color: #333;
+      text-align: center;
+      font-size: .3rem; }
+    section .bot1 .rights {
+      flex: 1;
+      text-align: center; }
+
+footer ul {
+  display: -webkit-flex; }
+  footer ul li {
+    flex: 1; }
+
+/*# sourceMappingURL=style.css.map */
